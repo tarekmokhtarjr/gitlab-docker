@@ -60,16 +60,18 @@ The following should be available in the host machine (computer, server, etc ...
    `GITLAB_ROOT_PASSWORD: <your_initial_root_password>`
    replace <your_initial_root_password> with your initial root password.
 
-2. Run docker-composer:
+2. Make sure to correctly set the external url in environment variable `GITLAB_OMNIBUS_CONFIG`, if you want to run **Gitlab** on your local machine then just keep it as it's but if you are running it on another host with a domain or an ip address then replace the default (http://localhost) with your ip or domain name, for example if you are running your **Gitlab** on a host with a domain name (http://my-private-gitlab.com) then just replace `external_url http://localhost` with the correct domain name `external_url http://my-private-gitlab.com` inside the docker-compose.yml file.
+
+3. Run docker-composer:
    `docker-compose up -d`
 
-3. The **Gitlab** server runs using port 80, so depending on your host machine you can either:
+4. The **Gitlab** server runs using port 80, so depending on your host machine you can either:
    
    1. access it locally (http://localhost) if you are running it locally
    
-   2. or just access it using your domain name (http://<your-domain-name>)
+   2. or just access it using your domain name (http://your-domain-name)
 
-4. Login with your initial root password with the username **root**
+5. Login with your initial root password with the username **root**
    ![loading-ag-220](img/Screenshot_20231126_204650.png)
    
    this screenshot is taken from a gitlab instance running on a local machine
