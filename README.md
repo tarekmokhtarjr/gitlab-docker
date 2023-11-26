@@ -1,14 +1,14 @@
 <div align="center">
     <img src="img/gitlab-logo-500.png" alt="Gitlab Pipeline Trigger" width="200">
     <img src="img/1_QVFjsW8gyIXeCUJucmK4XA.png" alt="Docker Compose" width="200">
+    <h1 align="center"> Gitlab CE & Gitlab Runner in Docker </h1>
 </div>
-<h1 align="center"> Gitlab CE & Gitlab Runner in Docker </h1>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-# 
+ 
 
 ## Table of Contents
 
