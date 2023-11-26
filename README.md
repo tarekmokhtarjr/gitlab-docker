@@ -137,9 +137,8 @@ networks:
 ## Create Shared Runners
 
 To create shared runners:
-
 1. Open http://<your_host_address>/admin/runners
-   <img title="" src="file:///home/ahmed/Dev/gitlab-docker/img/Screenshot_20231126_213718.png" alt="">
+   <img title="" src="img/Screenshot_20231126_213718.png" alt="">
 
 2. Click **New instance runner**
 
@@ -160,4 +159,4 @@ To create shared runners:
 
 8. You can copy this repo [simple-ci · GitLab](https://gitlab.com/atarekmokhtar90/simple-ci) into your own **Gitlab server** and it should succeed
    
-   <img title="" src="file:///home/ahmed/Dev/gitlab-docker/img/Screenshot_20231126_225021.png" alt="">
+   <img title="" src="img/Screenshot_20231126_225021.png" alt="">
