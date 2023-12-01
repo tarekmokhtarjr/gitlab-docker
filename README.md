@@ -151,7 +151,7 @@ To create shared runners:
    <img src="img/Screenshot_20231126_223116.png" />
 
 5. Copy the token and open your terminal and write this command
-   `docker exec -it gitlab-runner gitlab-runner register  --url http://gitlab-server  --token glrt-b1fmQbz1wd2t_ep2eyY_ --docker-network-mode "host"`
+   `docker exec -it gitlab-runner gitlab-runner register  --url http://gitlab-server  --token <the generated token> --docker-network-mode "host"`
 
 6. Enter the **Gitlab instance url** and note that it should be the alias **http://gitlab-server** for **gitlab** inside docker virtual network
    <img src="img/Screenshot_20231126_224002.png" /> 
